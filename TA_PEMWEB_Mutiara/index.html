@@ -1,146 +1,199 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Portofolio - Mutiara Khairunnisa Zulkifli</title>
-    <link rel="stylesheet" href="style.css">
-    
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutiara Khairunnisa Zulkifli - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main-header">
-        <h1>Website Portofolio Mutiara Khairunnisa Zulkifli </h1>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#skills">Keahlian</a></li>
-                <li><a href="#projects">Proyek</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        
-        <section id="about" class="section hero-section">
-            <div class="container hero-content">
-                <div class="profile-image-wrapper">
-                    <img src="mutiara.JPG" alt="Foto Mutiara Khairunnisa Zulkifli" class="profile-img">
-                </div>
-                <div class="hero-text">
-                    <h2>Hai! Saya Mutiara 👋</h2>
-                    <p>Saya adalah mahasiswa Teknik Informatika Universitas Lampung yang berfokus pada pengembangan antarmuka pengguna (frontend) yang intuitif dan menarik.</p>
-                    <p>Keahlian utama saya adalah menggabungkan estetika desain grafis dengan fondasi teknis pengembangan web, memastikan solusi digital yang dihasilkan tidak hanya indah, tetapi juga fungsional dan terstruktur.</p>
-                    <a href="#projects" class="btn">Jelajahi Proyek Saya</a>
-                </div>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">Mutiara's<span>Portofolio</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section white hero fade-in">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h2>Hai, Saya <span>Mutiara Khairunnisa Zulkifli</span> 👋</h2>
+        <p>Saya seorang mahasiswa Teknik Informatika Universitas Lampung yang berfokus pada pengembangan <strong>UI/UX</strong> dan <strong>Frontend Web</strong>.  
+        Tujuan saya adalah menciptakan pengalaman digital yang tidak hanya menarik secara visual tetapi juga intuitif dan fungsional.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Lihat Proyek</a>
+          <a href="#contact" class="btn secondary">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="mutiara.JPG" alt="Foto Mutiara">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section blue fade-in">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p class="intro">
+        Saya memiliki passion besar dalam dunia desain antarmuka dan pengembangan web modern.  
+        Saya percaya bahwa desain bukan hanya tentang tampilan, tetapi tentang bagaimana pengguna berinteraksi dan merasakan pengalaman dari sebuah produk digital.
+      </p>
+
+      <div class="grid-3">
+        <div class="card glass">
+          <h3>🎨 UI/UX Design</h3>
+          <p>Saya menciptakan desain berbasis user-centered yang mengedepankan kemudahan, estetika, dan pengalaman pengguna yang menyenangkan.</p>
+        </div>
+        <div class="card glass">
+          <h3>💻 Frontend Development</h3>
+          <p>Mengembangkan antarmuka interaktif dan responsif menggunakan HTML, CSS, dan JavaScript dengan pendekatan mobile-first design.</p>
+        </div>
+        <div class="card glass">
+          <h3>⚙️ Problem Solving</h3>
+          <p>Mampu mengidentifikasi permasalahan dan memberikan solusi kreatif yang efisien melalui teknologi dan desain yang tepat sasaran.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section white fade-in">
+    <div class="container">
+      <h2>Proyek Unggulan</h2>
+      <p class="subtitle">Berikut beberapa proyek yang telah saya buat, mencakup desain UI/UX, pengembangan website, hingga proyek sistem informasi berbasis web.</p>
+
+      <div class="projects-grid">
+
+        <!-- Proyek 1 -->
+        <div class="project-card glass">
+          <img src="lampungnight.png" alt="Lampung Night Fair">
+          <div class="project-info">
+            <h3>Lampung Night Fair</h3>
+            <p>Proyek desain konten digital untuk acara besar di Lampung yang bertujuan meningkatkan engagement publik.  
+            Desain dibuat dengan gaya modern dan palet warna yang kuat untuk menonjolkan kesan meriah dan futuristik.</p>
+            <div class="project-buttons">
+              <a href="https://www.instagram.com/lampungnightfair" target="_blank" class="btn small primary">Lihat Detail</a>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <section id="skills" class="section skills-section">
-            <div class="container">
-                <h2>Keahlian Teknis & Kreatif</h2>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>Desain Grafis 🎨</h3>
-                        <ul>
-                            <li>Adobe Photoshop & Illustrator (Dasar)</li>
-                            <li>Canva & Figma untuk Desain Konten Digital</li>
-                            <li>Perancangan Publikasi & Materi Visual</li>
-                            <li>Konsep Branding & Identitas Visual</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>Frontend Web Development 💻</h3>
-                        <ul>
-                            <li>HTML5 Semantic Structure</li>
-                            <li>CSS Box Model & Styling</li>
-                            <li>Layouting Dasar (Float & Flex/Grid)</li>
-                            <li>Dasar Interaktivitas (JavaScript)</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>Tools & Manajemen ⚙️</h3>
-                        <ul>
-                            <li>Git & GitHub (Version Control)</li>
-                            <li>Google Workspace & Notion (Manajemen Proyek)</li>
-                            <li>Penggunaan Text Editor untuk Coding</li>
-                            <li>Prinsip Debugging Browser</li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>Strategi Kreatif 💡</h3>
-                        <ul>
-                            <li>Visual Storytelling untuk Kampanye</li>
-                            <li>Eksplorasi Warna & Tipografi Modern</li>
-                            <li>Adaptasi Tren Desain Digital</li>
-                            <li>Pemahaman Dasar User Experience (UX)</li>
-                        </ul>
-                    </div>
-                </div>
+        <!-- Proyek 2 -->
+        <div class="project-card glass">
+          <img src="himatro.png" alt="Feed Himatro">
+          <div class="project-info">
+            <h3>Feed Instagram HIMATRO</h3>
+            <p>Desain visual untuk media sosial organisasi HIMATRO UNILA dengan konsep clean, modern, dan branding yang kuat.  
+            Fokus utama proyek ini adalah konsistensi warna, tipografi, dan storytelling visual.</p>
+            <div class="project-buttons">
+              <a href="https://www.instagram.com/himatro.unila" target="_blank" class="btn small primary">Lihat Detail</a>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <section id="projects" class="section projects-section">
-            <div class="container">
-                <h2>Proyek Pilihan yang Telah Saya Tangani</h2>
-                <div class="project-cards-wrapper-3">
-                <div class="project-card">
-                        <img src="lampungnight.png" alt="Gambar Desain Postingan Lampung Night Fair" class="project-img">
-                        <div class="project-content">
-                            <h3>Desain Postingan Lampung Night Fair</h3>
-                            <p>Perancangan konten visual untuk promosi acara Lampung Night Fair di media sosial, dengan fokus pada *engagement* dan konsistensi branding.</p>
-                            <a href="https://www.instagram.com/lampungnightfair?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="btn-project">Lihat Desain</a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="himatro.png" alt="Gambar Proyek Desain Instagram" class="project-img">
-                        <div class="project-content">
-                            <h3>Desain Feed Instagram Himatro</h3>
-                            <p>Serangkaian desain publikasi untuk organisasi, menerapkan gaya *clean*, modern, dan palet warna yang konsisten untuk membangun citra profesional.</p>
-                            <a href="https://www.instagram.com/himatro.unila?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="btn-project">Lihat Desain</a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="buku.png" alt="Gambar Proyek Sistem Buku" class="project-img">
-                        <div class="project-content">
-                            <h3>Website Sistem Peminjaman Buku</h3>
-                            <p>Kontribusi dalam tim untuk membangun *interface* sistem, dengan fokus pada *form styling* yang rapi dan navigasi yang mudah digunakan oleh pengguna.</p>
-                            <a href="#" target="_blank" class="btn-project">Lihat Detail</a>
-                        </div>
-                    </div>
-                </div>
+        <!-- Proyek 3 -->
+        <div class="project-card glass">
+          <img src="buku.png" alt="Website Buku">
+          <div class="project-info">
+            <h3>Website Sistem Peminjaman Buku</h3>
+            <p>Sebuah website sederhana berbasis HTML dan CSS yang dirancang untuk membantu pengguna dalam proses peminjaman dan pengelolaan buku.  
+            Tampilan dibuat bersih, intuitif, dan mudah digunakan oleh admin maupun pengunjung.</p>
+            <div class="project-buttons">
+              <a href="https://github.com/Elsx970/Bookify_Hub.git" class="btn small secondary">GitHub</a>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <section id="contact" class="section contact-section">
-            <div class="container">
-                <h2>Hubungi Saya</h2>
-                <div class="form-wrapper">
-                    <form action="#" method="POST">
-                        <label for="name">Nama Lengkap</label>
-                        <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
-
-                        <label for="email">Email <span class="required">*</span></label>
-                        <input type="email" id="email" name="email" required placeholder="emailanda@contoh.com">
-
-                        <label for="message">Pesan Anda</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Tulis pesan atau kolaborasi yang ingin dibahas..."></textarea>
-
-                        <button type="submit" class="btn-submit">Kirim Pesan</button>
-                    </form>
-                </div>
+        <!-- Proyek 4 -->
+        <div class="project-card glass">
+          <img src="microcredittracker.png" alt="Micro Credit Tracker">
+          <div class="project-info">
+            <h3>UI/UX Micro Credit Tracker</h3>
+            <p>Desain aplikasi pelacakan keuangan mikro yang fokus pada kemudahan visualisasi data, aksesibilitas, dan pengalaman pengguna yang intuitif.  
+            Saya mendesain arsitektur tampilan, alur navigasi, dan prototipe dengan Figma.</p>
+            <div class="project-buttons">
+              <a href="https://www.figma.com/design/6v7LvHl3JoWPIHTYCfhyVS/PTI---Micro-Credit-Tracker?node-id=46-2&t=XekQ2klRu4lV2JiH-1" class="btn small primary">Lihat Detail</a>
             </div>
-        </section>
-    </main>
+          </div>
+        </div>
 
-    <footer class="main-footer">
-        <p>&copy; 2025 Mutiara Khairunnisa Zulkifli | Dibuat dengan ❤️ menggunakan HTML & CSS Dasar.</p>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section blue fade-in">
+    <div class="container">
+      <h2>Pengalaman & Keahlian</h2>
+      <div class="experience-container">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>2024</span>
+            <p>Anggota Tim Desain Media Informasi HIMATRO UNILA – Desain visual dan publikasi media sosial untuk kegiatan organisasi.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2025</span>
+            <p>Pelatihan Web Development dan UI/UX Research berbasis proyek studi kasus.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2025</span>
+            <p>Mengembangkan portofolio website pribadi dan proyek Micro Credit Tracker dengan desain modern dan sistematis.</p>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h3>Keahlian Teknis</h3>
+          <div class="skill">
+            <span>HTML & CSS</span>
+            <div class="progress"><div style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <span>UI/UX Design (Figma)</span>
+            <div class="progress"><div style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress"><div style="width:70%"></div></div>
+          </div>
+          <div class="skill">
+            <span>Design Graphic</span>
+            <div class="progress"><div style="width:85%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section white fade-in">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <p class="subtitle">Tertarik bekerja sama, berdiskusi proyek, atau berkolaborasi dalam desain digital? Kirimkan pesan di bawah ini!</p>
+      <form>
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="email" placeholder="Email Anda" required>
+        <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+        <button type="submit" class="btn primary">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Mutiara Khairunnisa Zulkifli | Dibuat dengan 💙 semangat inovasi, desain, dan teknologi modern.</p>
+  </footer>
+
 </body>
 </html>
